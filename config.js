@@ -1,7 +1,6 @@
 // Coleque os links o link das musicas que deseja baixar
 const urls = [
-    "https://arimaspo.bandcamp.com/track/arimaspo-oh-my-head",
-    "https://visionaryshamanics.bandcamp.com/track/arimaspo-darkside-of-fms-lost-cogus",
+    "https://metatronmusic.bandcamp.com/track/metatron-wtf",
 ]
 
 const _config = {
@@ -11,6 +10,6 @@ const _config = {
 
 
 module.exports = {
-    urls:urls,
-    _config:_config
+    urls: urls,
+    _config: _config
 }
