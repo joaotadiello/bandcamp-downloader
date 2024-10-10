@@ -12,7 +12,7 @@ async function getTrackData(url) {
 urls.forEach(async (url, i) => {
     const data = await getTrackData(url)
     let $ = cheerio.load(data, _config)
-    let dataTrack = JSON.parse($('script').toArray()[4].attribs['data-tralbum']).trackinfo[0];
+    let dataTrack = JSON.parse($('script').toArray()[5].attribs['data-tralbum']).trackinfo[0];
     const { title, file } = dataTrack
     download(file['mp3-128'], `./downloads/${title}.mp3`, function () {});
 })

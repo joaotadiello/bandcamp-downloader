@@ -1,6 +1,9 @@
 // Coleque os links o link das musicas que deseja baixar
 const urls = [
-    "https://metatronmusic.bandcamp.com/track/metatron-wtf",
+    // "https://holandes.bandcamp.com/track/bonde-do-nike-air",
+    // "https://holandes.bandcamp.com/track/morr-o",
+    // "https://holandes.bandcamp.com/track/correria",
+    // "https://holandes.bandcamp.com/track/no-veneno",
 ]
 
 const _config = {
